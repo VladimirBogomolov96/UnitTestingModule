@@ -8,5 +8,12 @@ namespace CalcStatsKata
 {
     public class SequenceProcessingStatistics
     {
+        public int MaxValue { get; set; }
+
+        public int MinValue { get; set; }
+
+        public int NumberOfElements { get; set; }
+
+        public double AverageValue { get; set; }
     }
 }
